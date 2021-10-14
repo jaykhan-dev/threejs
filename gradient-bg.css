@@ -1,0 +1,16 @@
+footer {
+    font-family: 'Quicksand', sans-serif;
+    background: linear-gradient(45deg,#0096FF, #0047AB, #1F51FF, #000000, #0437F2, #87CEEB);
+    background-size: 400% 100%;
+    animation: gradient 16s linear infinite;
+    animation-direction: alternate;
+}
+
+footer a {
+    cursor: crosshair;
+}
+
+@keyframes gradient {
+    0% {background-position: 0%}
+    100% {background-position: 100%}
+}
